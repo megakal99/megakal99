@@ -277,25 +277,25 @@ export default function Portfolio() {
           <h2 className="text-4xl font-bold mb-12 text-center">My Skills</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="bg-white bg-opacity-80 rounded-lg shadow-lg p-6">
-              <h3 className="text-xl font-bold mb-4">Data Governance & Stewardship</h3>
+              <h3 className="text-xl font-bold mb-4 flex items-center"><span className="mr-2">🛡️</span>Data Governance & Stewardship</h3>
               <p>
                 Data Catalog Building, MDM (Master Data Management), Data Lineage, Data Contracts, Data Quality Audit & Reporting, PII Data Handling (GDPR/CNDP Compliance), AI-Driven Data Solutions
               </p>
             </div>
             <div className="bg-white bg-opacity-80 rounded-lg shadow-lg p-6">
-              <h3 className="text-xl font-bold mb-4">Data Analysis & Visualization</h3>
-              <p>Exploratory Data Analysis, Statistical Analysis, Dashboards & Reporting, Power BI, Plotly</p>
+              <h3 className="text-xl font-bold mb-4 flex items-center"><span className="mr-2">📊</span>Data Analysis & Visualization</h3>
+              <p>Exploratory Data Analysis, Statistical Analysis, Dashboards & Reporting, Power BI</p>
             </div>
             <div className="bg-white bg-opacity-80 rounded-lg shadow-lg p-6">
-              <h3 className="text-xl font-bold mb-4">AI & LLM Integration</h3>
+              <h3 className="text-xl font-bold mb-4 flex items-center"><span className="mr-2">🤖</span>AI & LLM Integration</h3>
               <p>NLP, Conversational AI, RAG Architecture, Prompt Engineering, Agentic AI</p>
             </div>
             <div className="bg-white bg-opacity-80 rounded-lg shadow-lg p-6">
-              <h3 className="text-xl font-bold mb-4">Data Scraping & Automation</h3>
-              <p>Web Scraping, API Integration, ETL Processes, Automation Workflows, Data Integration</p>
+              <h3 className="text-xl font-bold mb-4 flex items-center"><span className="mr-2">🌐</span>Data Scraping & Automation</h3>
+              <p>Web Scraping, API Integration, ETL Processes, Automation Workflows</p>
             </div>
             <div className="bg-white bg-opacity-80 rounded-lg shadow-lg p-6">
-              <h3 className="text-xl font-bold mb-4">Automation Scripts</h3>
+              <h3 className="text-xl font-bold mb-4 flex items-center"><span className="mr-2">⚙️</span>Automation Scripts</h3>
               <p>Python Scripting, Task Scheduling, Process Automation</p>
             </div>
           </div>
