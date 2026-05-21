@@ -265,7 +265,7 @@ export default function Portfolio() {
               With over one year of experience as a freelancer, I have supported businesses with data-driven strategies including statistical analysis, predictive modeling, NLP, data visualization, ETL, and GenAI integration (LLMs/SLMs).
             </p>
             <p className="text-lg leading-relaxed mt-4">
-              I'm eager to leverage my expertise to deliver valuable insights, improve decision-making, and optimize business operations.
+              I help businesses transform their data into a trusted strategic asset by strengthening data governance, improving data quality, and leveraging AI-powered solutions to enhance efficiency and decision-making.
             </p>
           </div>
         </div>
@@ -279,7 +279,7 @@ export default function Portfolio() {
             <div className="bg-white bg-opacity-80 rounded-lg shadow-lg p-6">
               <h3 className="text-xl font-bold mb-4">Data Governance & Stewardship</h3>
               <p>
-                Data Catalog Building, MDM (Master Data Management), Data Lineage, Data Contracts, Data Quality Audit & Reporting, PII Data Handling (GDPR/CNDP Compliance), AI Data Solutions for Governance
+                Data Catalog Building, MDM (Master Data Management), Data Lineage, Data Contracts, Data Quality Audit & Reporting, PII Data Handling (GDPR/CNDP Compliance), AI-Driven Data Solutions
               </p>
             </div>
             <div className="bg-white bg-opacity-80 rounded-lg shadow-lg p-6">
@@ -288,7 +288,7 @@ export default function Portfolio() {
             </div>
             <div className="bg-white bg-opacity-80 rounded-lg shadow-lg p-6">
               <h3 className="text-xl font-bold mb-4">AI & LLM Integration</h3>
-              <p>NLP, Conversational AI, RAG Architecture, Prompt Engineering, LLM/SLM Agents Development</p>
+              <p>NLP, Conversational AI, RAG Architecture, Prompt Engineering, Agentic AI</p>
             </div>
             <div className="bg-white bg-opacity-80 rounded-lg shadow-lg p-6">
               <h3 className="text-xl font-bold mb-4">Data Scraping & Automation</h3>
