@@ -12,64 +12,75 @@ export default function Portfolio() {
 
   const projects = [
     {
-      title: "FX Risk Assessment & Management Tool",
-      client: "Lumon (UK-based company)",
+      title: "Internal Data Catalog Web Application",
+      client: "Insurance Company (Employee Project)",
       description:
-        "Developed a data-driven tool to assess and manage currency exchange rate risks. It provides tools for exposure assessment, implements forward contract hedging strategies, and backtests them. The solution incorporates real-time market forex analysis, risk quantification (VaR, ES), and strategic decision-making through interactive visualizations, empowering conclusions and recommendations.",
+        "Developed an internal data catalog web application based on the DAMA-DMBOK framework. The solution includes metadata management, business glossary, data lineage tracking, and data ownership management. Integrated an AI assistant using RAG architecture and Mixtral 8x7B LLM model to enable natural language-based access to catalog information.",
       skills: [
-        "Data Analysis",
-        "Risk Assessment & Management",
-        "Financial Market Modeling (forex)",
+        "Data Governance",
+        "Metadata Management",
+        "Data Catalog Development",
+        "RAG Architecture",
+        "LLM Integration",
         "Python Development",
-        "Data Visualization",
       ],
-      tools: ["Pandas", "Streamlit", "Plotly", "Docker", "Python"],
+      tools: ["Python", "Streamlit", "LangChain", "Mixtral 8x7B", "PostgreSQL", "Docker"],
       results: [
-        "Risk Mitigation Visibility: Enabled Lumon to understand exposure levels and experiment with forward contracts, reducing potential losses from currency fluctuations.",
-        "Strategic Optimization: Provided insights into risk management strategies through backtesting, allowing refined and data-driven decision-making.",
+        "Centralized metadata management improving data discoverability across teams.",
+        "AI assistant enables natural language queries for catalog information, reducing search time significantly.",
+        "Enhanced data ownership and accountability through clear lineage tracking.",
       ],
-      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/project1-lTiIFKN0rCNlk7Ag9rULIeDUP2sWtz.png",
+      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/project4-eM5dswuZlfknS5OoYvjw1pH0x1tQkm.png",
     },
     {
-      title: "Predictive Analysis Tool for MEV Strategy in DEX Transactions",
-      client: "Digital Currencies Investor",
+      title: "B2B Master Data Management (MDM) Solution",
+      client: "Insurance Company (Employee Project)",
       description:
-        "Developed a tool to predict gas fees and block numbers for Ethereum transactions, specifically for the MEV sandwich attack strategy. Using and testing deep learning & machine learning models, including state-of-the-art time series forecasting models (Nbeats, Nhits, TiDe, TFT, Prophet | LSTM, LGBM), the tool optimizes transaction placement to gain strategic advantages and maximize profit in Decentralized Exchange (DEX) transactions.",
+        "Built a B2B Master Data Management (MDM) solution to centralize and standardize client reference data. The solution ensures data consistency, eliminates duplicates, and provides a single source of truth for client information across the organization.",
       skills: [
-        "Data Collection & Processing",
-        "Blockchain Data Analysis",
-        "Machine Learning & Deep Learning",
-        "Time Series Forecasting",
-        "Model Deployment (API development)",
+        "Master Data Management",
+        "Data Standardization",
+        "Data Quality",
+        "Reference Data Management",
+        "Python Development",
       ],
-      tools: [
-        "etherscan.io",
-        "Python",
-        "Keras",
-        "Scikit-learn",
-        "TensorFlow",
-        "Polars",
-        "FastAPI",
-        "Numpy",
-        "Darts",
-        "Prophet",
-        "Docker",
-      ],
+      tools: ["Python", "PostgreSQL", "Streamlit", "Docker"],
       results: [
-        "Predictions of GasBaseFee values achieve 95% accuracy (based on client's threshold and errors percentiles), with errors below 0.0061 Gwei.",
-        "Predictions achieve 99% accuracy (based on client's threshold and errors percentiles) for front-running and back-running transactions, with margin errors of 14.71 Gwei and 12.44 Gwei.",
+        "Centralized client reference data creating a single source of truth.",
+        "Improved data quality through standardization and deduplication processes.",
+        "Enhanced data consistency across business units.",
       ],
-      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/project2-Cj1TyAbNkcwvjzvnjjjFXixyijI3vP.png",
-      link: "https://github.com/megakal99/PredictiveAnalysis-Client-Project-",
+      image:
+        "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/project6%20(2)-lmbu2a9svgbvTfp8DDLWh9CiE2Ssfo.png",
+    },
+    {
+      title: "Data Quality Monitoring & Reporting Application",
+      client: "Insurance Company (Employee Project)",
+      description:
+        "Developed internal data governance web applications for data quality monitoring and reporting based on business rules. Defined RACI and RBAC governance models to improve data ownership and accountability.",
+      skills: [
+        "Data Quality Management",
+        "Business Rules Definition",
+        "RACI/RBAC Models",
+        "Data Governance",
+        "Dashboard Development",
+      ],
+      tools: ["Python", "Streamlit", "PostgreSQL", "Power BI"],
+      results: [
+        "Automated data quality monitoring reducing manual inspection efforts.",
+        "Clear accountability through RACI and RBAC governance models.",
+        "Real-time reporting dashboards for data quality metrics.",
+      ],
+      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/project5-tHOfzdbNx2XUg5uFX9CjiEbPAjt8rL.png",
     },
     {
       title: "Tool for Analyzing the Representativity of Insurance Claims Record Samples",
-      client: "Finance Pro Advisory",
+      client: "Finance Pro Advisory (Freelance)",
       description:
-        "Developed a tool to assess the representativity of sample data of Sanlam's claims records. It automated statistical analysis using descriptive statistics, hypothesis testing, and inferential statistics, reducing time and costs in processing claims dossiers.",
+        "Developed a tool to assess the representativity of sample data of Sanlam's claims records. It automated statistical analysis using descriptive statistics, hypothesis testing, and inferential statistics, ensuring data quality and reliability for insurance claims processing.",
       skills: [
         "Statistical Analysis",
-        "Descriptive Statistics",
+        "Data Quality Assessment",
         "Hypothesis Testing",
         "Inferential Statistics",
         "Python Development",
@@ -77,65 +88,49 @@ export default function Portfolio() {
       tools: ["Streamlit", "Python", "Docker", "StatsModels", "Pingouin"],
       results: [
         "Automated statistical analysis, saving time and reducing costs.",
-        "Provided reliable conclusions on sample representativity, improving efficiency.",
+        "Provided reliable conclusions on sample representativity, improving data quality assurance.",
       ],
       image:
         "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/project6%20(2)-lmbu2a9svgbvTfp8DDLWh9CiE2Ssfo.png",
     },
     {
-      title: "Facebook Scraper Tool (API)",
-      client: "MeetMurphy.io",
-      description:
-        "Developed a sophisticated scraping solution for Facebook Groups, targeting both public and private posts. The tool gathers data while evading Facebook's bot detection mechanisms and is deployed as an API for seamless integration with the client's SaaS platform focused on lead generation and competitor analysis.",
-      skills: [
-        "Web Scraping & Web Automation",
-        "API Development",
-        "Dynamic Content Handling",
-        "Bot Detection Evasion",
-        "Deployment",
-        "Scalability",
-      ],
-      tools: ["Selenium", "FastAPI", "Docker", "Python", "VPS", "Bash Commands"],
-      results: [
-        "Developed a scalable scraper capable of extracting data from Facebook Groups while adhering to compliance requirements.",
-        "Successfully integrated the tool (API) with the client's SaaS system for lead generation and competitor analysis.",
-        "Enhanced data insights for strategic decision-making processes.",
-        "Deployed the application using Docker, ensuring performance and scalability across environments.",
-      ],
-      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/project3-lYUyW1PFDZko6hbfOrdgBcUA2s7JKp.png",
-    },
-    {
-      title: "Chatbot for Private Data-Based Responses",
+      title: "AI Assistant for Private Data-Based Responses",
       client: "Freelance Project",
       description:
-        "Developed a chatbot that provides responses based on private financial trade data using Retrieval-Augmented Generation (RAG). The solution improves document-based query handling, significantly reducing search time and improving accuracy.",
+        "Developed an AI assistant that provides responses based on private data using Retrieval-Augmented Generation (RAG). The solution improves document-based query handling, enabling efficient access to organizational knowledge.",
       skills: [
-        "Text Data Processing",
+        "RAG Architecture",
+        "LLM Integration",
         "NLP",
-        "GenAI (LLM) Integration",
-        "Retrieval-Augmented Generation (RAG)",
         "Prompt Engineering",
         "Python Development",
       ],
-      tools: ["Python", "Streamlit", "LangChain", "LLM_Mixtral7*8b (HuggingFace)"],
+      tools: ["Python", "Streamlit", "LangChain", "Mixtral 8x7B (HuggingFace)"],
       results: [
         "Reduced search time by providing efficient document-based responses.",
-        "The chatbot achieved an accuracy of 93% during testing, based on 122 predefined questions and responses.",
+        "Achieved 93% accuracy during testing, based on 122 predefined questions and responses.",
       ],
       image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/project4-eM5dswuZlfknS5OoYvjw1pH0x1tQkm.png",
     },
     {
-      title: "Power BI Dashboards for Sales Performance & Mental Health Analysis",
-      client: "Freelance Project",
+      title: "Data Integration & ETL Automation Tool",
+      client: "MeetMurphy.io (Freelance)",
       description:
-        "Created 3 Power BI dashboards: two to analyze business sales performance and one to analyze mental health survey results among IT employees. The dashboards provide actionable insights, supporting strategic decision-making.",
-      skills: ["Data Preparation & Cleaning", "Dashboard Design", "Interactive Visualization"],
-      tools: ["Power BI (DAX, PowerQuery)"],
-      results: [
-        "Sales Performance Dashboard helped optimize sales strategies by tracking trends.",
-        "Mental Health Analysis Dashboard provided insights into stress factors, enhancing employee well-being.",
+        "Developed a sophisticated data integration solution deployed as an API for seamless integration with the client's SaaS platform. The tool automates data collection and integration processes while ensuring data quality and compliance.",
+      skills: [
+        "Data Integration",
+        "ETL Automation",
+        "API Development",
+        "Data Quality",
+        "Scalability",
       ],
-      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/project5-tHOfzdbNx2XUg5uFX9CjiEbPAjt8rL.png",
+      tools: ["Selenium", "FastAPI", "Docker", "Python", "VPS"],
+      results: [
+        "Developed a scalable data integration solution ensuring data quality.",
+        "Successfully integrated with the client's SaaS system for automated data workflows.",
+        "Deployed using Docker for performance and scalability across environments.",
+      ],
+      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/project3-lYUyW1PFDZko6hbfOrdgBcUA2s7JKp.png",
     },
   ]
 
@@ -272,19 +267,13 @@ export default function Portfolio() {
           <div className="md:w-2/3 md:pl-12">
             <h2 className="text-4xl font-bold mb-4">About Me</h2>
             <p className="text-lg leading-relaxed">
-              I'm Khalil Benlamaalam (Khal Ben), Engineer in Digital Finance, specializing in data science, data
-              analysis, data stewardship, and automation.
+              I'm Khalil Benlamaalam (Khal Ben), Data Governance & Quality Engineer specializing in AI-driven data solutions, Master Data Management (MDM), data stewardship, and automation.
             </p>
             <p className="text-lg leading-relaxed mt-4">
-              With over one year of experience as a freelancer, I have supported businesses with data-driven strategies.
-              My experience includes applying various data techniques such as statistical analysis, predictive modeling,
-              NLP, data visualization, ETL, machine learning, deep learning, and more. I have also integrated GenAI
-              models, including LLMs and SLMs, into systems to enhance functionality and deliver smarter, more efficient
-              solutions.
+              With experience in the finance and insurance domain, I focus on ensuring data is reliable, consistent, and compliant for business use. I have contributed to data governance initiatives, developed internal data catalog applications based on the DAMA-DMBOK framework, built MDM solutions, and integrated AI assistants using RAG architecture to enable natural language-based access to data.
             </p>
             <p className="text-lg leading-relaxed mt-4">
-              I'm eager to leverage my expertise in data to deliver valuable insights, improve decision-making, and
-              optimize business operations.
+              I'm passionate about building trusted data foundations that enable better insights, efficiency, and compliance (CNDP/GDPR & PII). I'm always interested in connecting on data governance, AI, and automation-related projects or collaborations.
             </p>
           </div>
         </div>
@@ -296,31 +285,38 @@ export default function Portfolio() {
           <h2 className="text-4xl font-bold mb-12 text-center">My Skills</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="bg-white bg-opacity-80 rounded-lg shadow-lg p-6">
-              <h3 className="text-xl font-bold mb-4">🧠 Data Science</h3>
+              <h3 className="text-xl font-bold mb-4">🛡️ Data Governance & Stewardship</h3>
               <p>
-                Data Preprocessing, Feature Engineering, Hyperparameter Tuning, Predictive Analysis, Classification,
-                Clustering, Model Evaluation, Model Deployment
+                Data Governance Frameworks (DAMA-DMBOK), Data Stewardship, Data Ownership, RACI & RBAC Models, Policy Definition, Data Standards
               </p>
             </div>
             <div className="bg-white bg-opacity-80 rounded-lg shadow-lg p-6">
+              <h3 className="text-xl font-bold mb-4">✅ Data Quality Management</h3>
+              <p>Data Quality Monitoring, Business Rules Definition, Data Profiling, Data Cleansing, Quality Reporting & Dashboards</p>
+            </div>
+            <div className="bg-white bg-opacity-80 rounded-lg shadow-lg p-6">
+              <h3 className="text-xl font-bold mb-4">🗂️ Master Data Management (MDM)</h3>
+              <p>MDM Solutions, Data Centralization, Reference Data Standardization, Golden Record Management</p>
+            </div>
+            <div className="bg-white bg-opacity-80 rounded-lg shadow-lg p-6">
+              <h3 className="text-xl font-bold mb-4">📚 Metadata & Data Catalog</h3>
+              <p>Metadata Management, Business Glossary, Data Lineage, Data Catalog Development, Data Dictionary</p>
+            </div>
+            <div className="bg-white bg-opacity-80 rounded-lg shadow-lg p-6">
+              <h3 className="text-xl font-bold mb-4">🔒 Compliance & Data Protection</h3>
+              <p>CNDP (GDPR) Compliance, PII Data Protection, Pseudonymization, Data Privacy Mechanisms</p>
+            </div>
+            <div className="bg-white bg-opacity-80 rounded-lg shadow-lg p-6">
+              <h3 className="text-xl font-bold mb-4">🤖 AI-Driven Data Solutions</h3>
+              <p>RAG Architecture, LLM Integration (Mixtral), AI Assistants for Data Access, NLP, Prompt Engineering</p>
+            </div>
+            <div className="bg-white bg-opacity-80 rounded-lg shadow-lg p-6">
               <h3 className="text-xl font-bold mb-4">📊 Data Analysis & Visualization</h3>
-              <p>Exploratory Data Analysis, Statistical Analysis, Dashboards & Reporting</p>
+              <p>Exploratory Data Analysis, Statistical Analysis, Dashboards & Reporting, Power BI, Plotly</p>
             </div>
             <div className="bg-white bg-opacity-80 rounded-lg shadow-lg p-6">
-              <h3 className="text-xl font-bold mb-4">🤖 Chatbot & SLMs, LLMs agents Development</h3>
-              <p>NLP, Conversational AI, RAG, Prompt Engineering</p>
-            </div>
-            <div className="bg-white bg-opacity-80 rounded-lg shadow-lg p-6">
-              <h3 className="text-xl font-bold mb-4">🌐 Data Scraping & Automation</h3>
-              <p>Web Scraping, API Integration, ETL Processes, Automation Workflows, Data Integration</p>
-            </div>
-            <div className="bg-white bg-opacity-80 rounded-lg shadow-lg p-6">
-              <h3 className="text-xl font-bold mb-4">👨‍💻 Automation Scripts</h3>
-              <p>Python Scripting, Task Scheduling</p>
-            </div>
-            <div className="bg-white bg-opacity-80 rounded-lg shadow-lg p-6">
-              <h3 className="text-xl font-bold mb-4">📈 Quantitative Analysis & Finance</h3>
-              <p>Portfolio Management & Optimization, Derivatives Pricing, Risk Assessment & Management</p>
+              <h3 className="text-xl font-bold mb-4">⚙️ Automation & Development</h3>
+              <p>Python Development, Web Application Development, API Development, ETL Processes, Automation Workflows</p>
             </div>
           </div>
         </div>
